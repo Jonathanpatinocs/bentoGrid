@@ -1,7 +1,9 @@
 img {
     width: 200px;
 }
-
+.attribution {
+    margin-top: 10px;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -22,10 +24,10 @@ body{
     display: grid;
     grid-template: 1.5fr 1fr 1fr / 1fr 1fr 1fr 1fr;
     gap: 20px;
-    border: solid 1px black;
+    
 }
 .container div {
-    border: solid 1px black;
+    
     border-radius: 10px;
     
 }
@@ -183,12 +185,32 @@ body{
 }
 #box7 {
     background-color: hsl(31, 66%, 93%);
+    padding: 7%;
+    padding-top: 40px;
 }
-
+#box7 p {
+    font-size: 35px;
+    letter-spacing: -2px;
+}
+#box7 span {
+    font-style: italic;
+    color: hsl(256, 67%, 59%);
+}
+#box7 img {
+    width: 100%;
+}
 #box8 {
    background-color: hsl(39, 100%, 71%);
+   padding: 5%;
 }
-
+#box8 p {
+    font-size: 35px;
+    letter-spacing: -1px;
+}
+#box8 img {
+    margin-top: 40px;
+    width: 100%;
+}
 /*  Tablet Screen Size */
 @media only screen and (max-width: 900px) {
     .container {
@@ -219,6 +241,24 @@ body{
     }
     #box6 img {
         object-fit: contain;
+    }
+    #box7 {
+        padding: 3%;
+    }
+    #box7 img {
+        width: 200px;
+    }
+    #box8 {
+        padding: 3%;
+        padding-top: 0;
+    }
+
+    #box8 img {
+        margin-top: 10px;
+        width: 250px;
+    }
+    #box8 p {
+        margin-top: 15px;
     }
 
 }
