@@ -1,4 +1,6 @@
-
+img {
+    width: 200px;
+}
 
 body{
     display: flex;
@@ -9,7 +11,8 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: #fff;
+    background-color: #FAF9F6;
+
    
 }
 .container {
@@ -130,12 +133,14 @@ body{
     
 }
 #box5 {
+    background-color: hsl(256, 67%, 59%);
     grid-row: -2 / -1;
     grid-column: 3 / -1;
 }
 #box6 {
     grid-row: -2 / -1;
     grid-column: 2 / 3;
+    background-color: white;
 }
 #content-container2 {
     grid-row: 1 / -1;
@@ -146,6 +151,13 @@ body{
 }
 #content-container2 div {
     flex: 1;
+}
+#box7 {
+    background-color: hsl(31, 66%, 93%);
+}
+
+#box8 {
+   background-color: hsl(39, 100%, 71%);
 }
 
 /*  Tablet Screen Size */
